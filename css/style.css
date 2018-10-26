@@ -1,0 +1,36 @@
+
+img {
+    width: 100%;
+    height:auto;
+}
+#absolute-center {
+    text-align: center;
+    margin: 0 auto;
+ }
+
+#sectionTwo{
+    height: 100%;
+    background: url(../img/pexels-photo-325185.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+#sectionTwo p{
+    color: #000000;
+}
+#sectionThree{
+    background: #eeeeee ;
+}
+#sectionThree p{
+    color: #000000;
+}
+
+
+@media(max-width: 968px) {
+    html,
+    header{
+        margin: 1rem auto;
+    }
+    #navbtn{
+        text-align: center;
+    }
+
+}
